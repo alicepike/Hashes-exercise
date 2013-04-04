@@ -35,12 +35,12 @@
 #
 #    Check to see if the Hash has the key `:positive`
 
-	
+	puts responses "Has key positive? #{responses.has_key?[:positive]}"
 
 # 4. Check to see if it has the key `:cruel`
-
+	puts responses "Has key cruel? #{responses.has_key?[:cruel]}"
 
 
 # 5. Play around with more options by looking at the RubyDoc info:
 #    http://www.ruby-doc.org/core-1.9.3/Hash.html 
-
+	
