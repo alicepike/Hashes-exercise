@@ -26,6 +26,8 @@
 #    and neutral responses as well by creating new keys.
 	responses[:neutral] = ["Reply hazy, try again", "Ask again later", "Better not tell you now", 
 							"Cannot predict now", "Concentrate and ask again"] 
+
+	responses[:negative] = ["Don't count on it", "My reply is no", "My sources say no", "Outlook not so good", "Very doubtful"]
 	
 
 # 3. Finally, we can now play around with our Hash and Arrays to find
@@ -33,7 +35,7 @@
 #
 #    Check to see if the Hash has the key `:positive`
 
-
+	
 
 # 4. Check to see if it has the key `:cruel`
 
