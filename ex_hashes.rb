@@ -43,4 +43,6 @@
 
 # 5. Play around with more options by looking at the RubyDoc info:
 #    http://www.ruby-doc.org/core-1.9.3/Hash.html 
-	
+	puts responses "Does key include? #{responses.include?[:negative]}"
+
+	puts responses "Does key include? #{responses.include?[:random]}"
