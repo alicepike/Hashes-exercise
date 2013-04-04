@@ -18,12 +18,14 @@
 #    puts "Positive Responses: #{responses[:positive].to_s}"
 
 	responses = :positive => ["It is certain", "It is decidedly so", "Without a doubt", "Yes – definitely", 
-								"You may rely on it", "As I see it, yes", "Most likely", "Outlook good"]
+								"You may rely on it", "As I see it, yes", "Most likely", "Outlook good", 
+								"Yes", "Signs point to yes"]
 
 	puts "Positive Responses: #{responses[:positive].to_s}"
 # 2. Now that you have created your basic Hash, go and add the negative
 #    and neutral responses as well by creating new keys.
-	responses = 
+	responses[:neutral] = ["Reply hazy, try again", "Ask again later", "Better not tell you now", 
+							"Cannot predict now", "Concentrate and ask again"] 
 	
 
 # 3. Finally, we can now play around with our Hash and Arrays to find
